@@ -4,6 +4,7 @@ fn main() {
     variable_bindings();
     functions();
     primitive_types();
+    if_examples();
 }
 
 fn variable_bindings() {
@@ -171,6 +172,31 @@ fn primitive_types() {
     // Tuple fields can also be accessed with indexing syntax.
     // Note - like arrays, the indexes are zero based
     println!("second value of some_tuple is {}", some_tuple.1);
+
+    println!();
+}
+
+fn if_examples() {
+    println!("if\n");
+
+    // In Rust, if operates as you might expect.
+    let x = 5;
+
+    if x == 5 {
+        println!("x is 5!");
+    }
+    else if x ==6 {
+        println!("x is 6!");
+    }
+    else {
+        println!("x is something else!");
+    }
+
+    // However, like in some other languages, if is also and expression which
+    // makes the following possible.
+    let y = if x == 5 { 10 } else { 0 };
+
+    println!("y is {}", y);
 
     println!();
 }
