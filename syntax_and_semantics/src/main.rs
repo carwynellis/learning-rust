@@ -460,7 +460,10 @@ fn lifetimes() {
         "Filtered numbers: {}",
         filtered
             .iter()
-            .fold(String::new(), |acc, &elem| acc + &elem.to_string() + ", ")
+            .fold(
+                String::new(),
+                |acc, &elem| if acc.is_empty() { acc + &elem.to_string() } else { acc + ", " + &elem.to_string() }
+            )
     );
 
     println!();
