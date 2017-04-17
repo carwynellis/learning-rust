@@ -17,7 +17,7 @@ fn main() {
     mutability();
     structs();
     enums();
-    matches();
+    matching();
 }
 
 fn variable_bindings() {
@@ -662,8 +662,8 @@ fn enums() {
     println!();
 }
 
-fn matches() {
-    println!("Matches\n");
+fn matching() {
+    println!("Match\n");
 
     // Rust supports matching with exhaustiveness checking.
 
