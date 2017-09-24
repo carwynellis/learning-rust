@@ -30,4 +30,5 @@ fn main() {
     universal_function_call_syntax();
     const_and_static();
     attributes();
+    type_aliases();
 }
