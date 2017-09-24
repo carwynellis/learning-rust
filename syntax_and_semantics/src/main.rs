@@ -29,4 +29,5 @@ fn main() {
     closures();
     universal_function_call_syntax();
     const_and_static();
+    attributes();
 }
