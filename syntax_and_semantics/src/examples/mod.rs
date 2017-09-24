@@ -21,6 +21,7 @@ mod if_let_while_let;
 mod trait_objects;
 mod closures;
 mod universal_function_call_syntax;
+mod const_and_static;
 
 pub use self::variable_bindings::*;
 pub use self::functions::*;
@@ -45,3 +46,4 @@ pub use self::if_let_while_let::*;
 pub use self::trait_objects::*;
 pub use self::closures::*;
 pub use self::universal_function_call_syntax::*;
+pub use self::const_and_static::*;

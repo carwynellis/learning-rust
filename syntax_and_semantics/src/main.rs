@@ -28,4 +28,5 @@ fn main() {
     trait_objects();
     closures();
     universal_function_call_syntax();
+    const_and_static();
 }
