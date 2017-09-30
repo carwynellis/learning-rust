@@ -31,4 +31,5 @@ fn main() {
     const_and_static();
     attributes();
     type_aliases();
+    coercion();
 }

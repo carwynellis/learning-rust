@@ -24,6 +24,7 @@ mod universal_function_call_syntax;
 mod const_and_static;
 mod attributes;
 mod type_aliases;
+mod coercion;
 
 pub use self::variable_bindings::*;
 pub use self::functions::*;
@@ -51,3 +52,5 @@ pub use self::universal_function_call_syntax::*;
 pub use self::const_and_static::*;
 pub use self::attributes::*;
 pub use self::type_aliases::*;
+pub use self::coercion::*;
+
