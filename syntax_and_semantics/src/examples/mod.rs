@@ -25,6 +25,7 @@ mod const_and_static;
 mod attributes;
 mod type_aliases;
 mod coercion;
+mod associated_types;
 
 pub use self::variable_bindings::*;
 pub use self::functions::*;
@@ -53,4 +54,4 @@ pub use self::const_and_static::*;
 pub use self::attributes::*;
 pub use self::type_aliases::*;
 pub use self::coercion::*;
-
+pub use self::associated_types::*;

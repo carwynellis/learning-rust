@@ -32,4 +32,5 @@ fn main() {
     attributes();
     type_aliases();
     coercion();
+    associated_types();
 }
