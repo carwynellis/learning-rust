@@ -33,4 +33,5 @@ fn main() {
     type_aliases();
     coercion();
     associated_types();
+    unsized_types();
 }

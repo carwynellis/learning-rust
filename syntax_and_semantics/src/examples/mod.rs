@@ -26,6 +26,7 @@ mod attributes;
 mod type_aliases;
 mod coercion;
 mod associated_types;
+mod unsized_types;
 
 pub use self::variable_bindings::*;
 pub use self::functions::*;
@@ -55,3 +56,4 @@ pub use self::attributes::*;
 pub use self::type_aliases::*;
 pub use self::coercion::*;
 pub use self::associated_types::*;
+pub use self::unsized_types::*;
