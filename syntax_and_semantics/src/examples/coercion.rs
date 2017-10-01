@@ -106,6 +106,7 @@ pub fn coercion() {
     // While transmute does very little checking it does check that the types
     // are the same size. An attempt to transmute the array of 4 bytes into an
     // i64 will fail since there are not enough bytes to create the full i64.
+    // Other than that, you're on your own!
 
     println!();
 }
