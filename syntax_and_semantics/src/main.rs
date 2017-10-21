@@ -34,4 +34,5 @@ fn main() {
     coercion();
     associated_types();
     unsized_types();
+    operators_and_overloading();
 }
