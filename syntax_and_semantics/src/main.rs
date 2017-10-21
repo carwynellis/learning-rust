@@ -35,4 +35,5 @@ fn main() {
     associated_types();
     unsized_types();
     operators_and_overloading();
+    deref_coercions();
 }
