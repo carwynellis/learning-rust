@@ -29,6 +29,7 @@ mod associated_types;
 mod unsized_types;
 mod operators_and_overloading;
 mod deref_coercions;
+mod macros;
 
 pub use self::variable_bindings::*;
 pub use self::functions::*;
@@ -61,3 +62,4 @@ pub use self::associated_types::*;
 pub use self::unsized_types::*;
 pub use self::operators_and_overloading::*;
 pub use self::deref_coercions::*;
+pub use self::macros::*;

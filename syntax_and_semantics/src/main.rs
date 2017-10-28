@@ -36,4 +36,5 @@ fn main() {
     unsized_types();
     operators_and_overloading();
     deref_coercions();
+    macros();
 }
