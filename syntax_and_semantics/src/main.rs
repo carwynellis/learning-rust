@@ -37,4 +37,5 @@ fn main() {
     operators_and_overloading();
     deref_coercions();
     macros();
+    raw_pointers();
 }
